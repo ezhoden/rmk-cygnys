@@ -27,20 +27,12 @@ map = """
 [keymap]
 # One more layer than is defined below: the keymap references layer 2
 # (LT(2, ...), TG(2)), which stays empty until the user fills it in.
-layers = 3
+layers = 4
 
 [[keymap.layer]] # layer 0
 keys = """
-A       B           C
-Kc1     Kc2         Kc3
-LCtrl   MO(1)       LShift
-OSL(1)  LT(2, Kc9)  LM(1, LShift | LGui)
-"""
-
-[[keymap.layer]] # layer 1
-keys = """
-_  TT(1)  TG(2)
-_  _      _
-_  _      _
-_  _      _
+Q  W  E  R  T
+A  S  D  F  G
+Z  X  C  V  B
+A B C
 """
