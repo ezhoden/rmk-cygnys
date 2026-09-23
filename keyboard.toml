@@ -32,14 +32,6 @@ col_offset = 5
 [split.peripheral.matrix]
 row_pins = ["P0_22", "P0_24", "P1_00", "P0_11"]
 col_pins = ["P0_29", "P0_02", "P1_15", "P1_13", "P1_11"]
-row2col = true
-
-[matrix]
-# Row and col pins are mandatory
-row_pins = ["P0_22", "P0_24", "P1_00", "P0_11"]
-col_pins = ["P0_29", "P0_02", "P1_15", "P1_13", "P1_11"]
-# RMK uses col2row as the default matrix diode direction, if you want to use a row2col matrix, add `row2col = true`
-row2col = true
 
 [layout]
 rows = 4
