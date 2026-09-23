@@ -23,7 +23,7 @@ col_offset = 0
 row_pins = ["P0_22", "P0_24", "P1_00", "P0_11"]
 col_pins = ["P0_29", "P0_02", "P1_15", "P1_13", "P1_11"]
 
-[[split.peripheral]]
+[split.peripheral]
 rows = 4
 cols = 5
 row_offset = 0
@@ -48,7 +48,7 @@ map = """
 # (LT(2, ...), TG(2)), which stays empty until the user fills it in.
 layers = 4
 
-[[keymap.layer]] # layer 0
+[keymap.layer] # layer 0
 keys = """
 Q  W  E  R  T    Q  W  E  R  T
 A  S  D  F  G    A  S  D  F  G
